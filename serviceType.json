@@ -5642,1981 +5642,2644 @@ const featureOptionsByServiceType = {
     ],
     "Sound Effects": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
+            "key": "numberOfSoundEffects",
+            "label": "Number of sound effects",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "syncSound",
+            "label": "Sync sound",
+            "type": "checkbox"
+        },
+        {
+            "key": "separatedTracksStems",
+            "label": "Separated tracks/stems",
+            "type": "checkbox"
+        },
+        {
+            "key": "royaltyFreeMusic",
+            "label": "Royalty free music",
+            "type": "checkbox"
+        },
+        {
+            "key": "dolbyAtmosMix",
+            "label": "Dolby Atmos mix",
             "type": "checkbox"
         }
     ],
     "Foley": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "recordingLength",
+            "label": "Recording length (in seconds)",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "syncSound",
+            "label": "Sync sound",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "separatedTracksStems",
+            "label": "Separated tracks/stems",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "royaltyFreeMusic",
+            "label": "Royalty free music",
             "type": "checkbox"
         }
     ],
     "Instruments": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "lessonLength",
+            "label": "Lesson length (in minutes)",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60", "65", "70", "75", "80", "85", "90"
+            ]
+        },
+        {
+            "key": "sheetMusicChords",
+            "label": "Sheet music/chords",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "exercisesSupportingMaterial",
+            "label": "Exercises & supporting material",
             "type": "checkbox"
         }
     ],
     "Production": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
+            "key": "lessonLength",
+            "label": "Lesson length (in minutes)",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60", "65", "70", "75", "80", "85", "90"
+            ]
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "exercisesSupportingMaterial",
+            "label": "Exercises & supporting material",
             "type": "checkbox"
         }
     ],
     "Vocals": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "lessonLength",
+            "label": "Lesson length (in minutes)",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60", "65", "70", "75", "80", "85", "90"
+            ]
+        },
+        {
+            "key": "sheetMusicChords",
+            "label": "Sheet music/chords",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "exercisesSupportingMaterial",
+            "label": "Exercises & supporting material",
             "type": "checkbox"
         }
     ],
     "Theory": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "lessonLength",
+            "label": "Lesson length (in minutes)",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60", "65", "70", "75", "80", "85", "90"
+            ]
+        },
+        {
+            "key": "sheetMusicChords",
+            "label": "Sheet music/chords",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "exercisesSupportingMaterial",
+            "label": "Exercises & supporting material",
             "type": "checkbox"
         }
     ],
     "DJ Drops": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "length",
+            "label": "Length (in seconds)",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
+            "key": "#_of_tags_included",
+            "label": "# of Tags Included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "specialEffects",
+            "label": "Special effects",
+            "type": "checkbox"
+        },
+        {
+            "key": "trackSeparation",
+            "label": "Track separation",
             "type": "checkbox"
         }
     ],
     "Producer Tags": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "length",
+            "label": "Length (in seconds)",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60"
+            ]
+        },
+        {
+            "key": "#_of_tags_included",
+            "label": "# of Tags Included",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "specialEffects",
+            "label": "Special effects",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "trackSeparation",
+            "label": "Track separation",
             "type": "checkbox"
         }
     ],
     "DJ Sets": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfSongs",
+            "label": "Number of songs",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100",
+                "101", "102", "103", "104", "105", "106", "107", "108", "109", "110",
+                "111", "112", "113", "114", "115", "116", "117", "118", "119", "120",
+                "121", "122", "123", "124", "125", "126", "127", "128", "129", "130",
+                "131", "132", "133", "134", "135", "136", "137", "138", "139", "140",
+                "141", "142", "143", "144", "145", "146", "147", "148", "149", "150",
+                "151", "152", "153", "154", "155", "156", "157", "158", "159", "160",
+                "161", "162", "163", "164", "165", "166", "167", "168", "169", "170",
+                "171", "172", "173", "174", "175", "176", "177", "178", "179", "180",
+                "181", "182", "183", "184", "185", "186", "187", "188", "189", "190",
+                "191", "192", "193", "194", "195", "196", "197", "198", "199", "200"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "recordingLength",
+            "label": "Recording length (in minutes)",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "customSongOrder",
+            "label": "Custom song order",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "timestampedTrackList",
+            "label": "Timestamped tracklist",
             "type": "checkbox"
         }
     ],
     "Mashups": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
+            "key": "songLength",
+            "label": "Song Length (in seconds)",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
+            "key": "numberOfSongs",
+            "label": "Number of songs",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15"
+            ]
         }
     ],
     "Scratching": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "songLength",
+            "label": "Song Length (in seconds)",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
-            "type": "checkbox"
+            "key": "barsIncluded",
+            "label": "Bars included",
+            "type": "dropdown",
+            "options": [
+                "2", "4", "6", "8", "10", "12", "14", "16", "18", "20",
+                "22", "24", "26", "28", "30", "32", "34", "36", "38", "40",
+                "42", "44", "46", "48", "50", "52", "54", "56", "58", "60",
+                "62", "64", "66", "68", "70", "72", "74", "76", "78", "80"
+            ]
         }
     ],
     "Synth & Instrument Presets": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "numberOfSounds",
+            "label": "Number of sounds",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "midiPlayedWithSynthPreset",
+            "label": "Midi played with synth preset",
             "type": "checkbox"
         }
     ],
     "DAW & Software Presets": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "#_of_presets",
+            "label": "# of Presets",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100",
+                "101", "102", "103", "104", "105", "106", "107", "108", "109", "110",
+                "111", "112", "113", "114", "115", "116", "117", "118", "119", "120",
+                "121", "122", "123", "124", "125", "126", "127", "128", "129", "130",
+                "131", "132", "133", "134", "135", "136", "137", "138", "139", "140",
+                "141", "142", "143", "144", "145", "146", "147", "148", "149", "150",
+                "151", "152", "153", "154", "155", "156", "157", "158", "159", "160",
+                "161", "162", "163", "164", "165", "166", "167", "168", "169", "170",
+                "171", "172", "173", "174", "175", "176", "177", "178", "179", "180",
+                "181", "182", "183", "184", "185", "186", "187", "188", "189", "190",
+                "191", "192", "193", "194", "195", "196", "197", "198", "199", "200"
             ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
         }
     ],
     "Loops & Samples": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "numberOfSounds",
+            "label": "Number of sounds",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
-            "type": "checkbox"
+            "key": "recordingLength",
+            "label": "Recording Length (in seconds)",
+            "type": "number"
         }
     ],
     "Jingles": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "length",
+            "label": "Length (in seconds)",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "vocalsRecording",
+            "label": "Vocals recording",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "originalMusic",
+            "label": "Original music",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
+        },
+        {
+            "key": "recordVideo",
+            "label": "Record video",
+            "type": "checkbox"
+        },
+        {
+            "key": "lyricsWriting",
+            "label": "Lyrics writing",
+            "type": "checkbox"
+        },
+        {
+            "key": "commercialUse",
+            "label": "Commercial use",
             "type": "checkbox"
         }
     ],
     "Intros & Outros": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "length",
+            "label": "Length (in seconds)",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50",
+                "55", "60"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "vocalsRecording",
+            "label": "Vocals recording",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "soundEffects",
+            "label": "Sound effects",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "backgroundMusic",
+            "label": "Background music",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
+        },
+        {
+            "key": "scriptWriting",
+            "label": "Script writing",
+            "type": "checkbox"
+        },
+        {
+            "key": "commercialUse",
+            "label": "Commercial use",
             "type": "checkbox"
         }
     ],
     "Music & Audio Mentorship": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "monthlySessions",
+            "label": "Monthly sessions",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "sessionLength",
+            "label": "Session length",
+            "type": "dropdown",
+            "options": [
+                "15", "30", "45", "60", "75", "90", "105", "120"
+            ]
+        },
+        {
+            "key": "followUpAssignments",
+            "label": "Follow-up assignments",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "sessionSummary",
+            "label": "Session summary",
             "type": "checkbox"
         }
     ],
     "Music Review & Feedback": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "songAudioReview",
+            "label": "Song/Audio Review",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "minutesIncluded",
+            "label": "Minutes Included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "feedback",
+            "label": "Feedback (written or recorded)",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "consultation",
+            "label": "Consultation / feedback (live call)",
+            "type": "checkbox"
+        },
+        {
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         }
     ],
     "Text-to-speech": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
+            "key": "wordsIncluded",
+            "label": "Words included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "separatedFiles",
+            "label": "Separated files",
+            "type": "checkbox"
+        },
+        {
+            "key": "hqAudioFile",
+            "label": "HQ audio file",
+            "type": "checkbox"
+        },
+        {
+            "key": "proofListening",
+            "label": "Proof-listening",
+            "type": "checkbox"
+        },
+        {
+            "key": "customVoice",
+            "label": "Custom voice",
+            "type": "checkbox"
+        },
+        {
+            "key": "videoSync",
+            "label": "Video sync",
             "type": "checkbox"
         }
     ],
     "Custom AI Voices": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "customVoiceTrainingData",
+            "label": "Custom voice training data",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "sourceVoiceCleaning",
+            "label": "Source voice cleaning",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "singingVocals",
+            "label": "Singing vocals",
             "type": "checkbox"
         }
     ],
     "Speech Recognition": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "audioLength",
+            "label": "Audio Length (minutes)",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "proofListening",
+            "label": "Proof-listening",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
-            "type": "checkbox"
+            "key": "numberOfSpeakers",
+            "label": "Number of speakers",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         }
     ],
     "WordPress": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Shopify": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Wix": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Squarespace": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Webflow": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Bubble": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "authentication",
+            "label": "Authentication",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "numberOfApisIntegrated",
+            "label": "Number of APIs integrated",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "customPluginDevelopment",
+            "label": "Custom Plugin Development",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "analyticsSetup",
+            "label": "Analytics setup",
             "type": "checkbox"
         }
     ],
     "WooCommerce": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "ClickFunnels": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Custom Websites": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Magento": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "SiteBuilder": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Thinkific": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Drupal": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "GoDaddy": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Joomla": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Blogger": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Opencart": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalWebsite",
+            "label": "Functional website",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "numberOfPages",
+            "label": "Number of pages",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Other Builders": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalWebsite",
+            "label": "Functional website",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentIntegration",
+            "label": "Payment Integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "speedOptimization",
+            "label": "Speed optimization",
+            "type": "checkbox"
+        },
+        {
+            "key": "hostingSetup",
+            "label": "Hosting setup",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Customization": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "contentUpload",
+            "label": "Content upload",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "e_commerce_functionality",
+            "label": "E-commerce functionality",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "paymentProcessing",
+            "label": "Payment processing",
+            "type": "checkbox"
+        },
+        {
+            "key": "opt_in_form",
+            "label": "Opt-in form",
+            "type": "checkbox"
+        },
+        {
+            "key": "autoResponderIntegration",
+            "label": "Autoresponder integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "socialMediaIcons",
+            "label": "Social media icons",
             "type": "checkbox"
         }
     ],
     "Bug Fixes": [
-        {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        }
+
     ],
     "Backup & Migration": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "websiteBackup",
+            "label": "Website backup",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "websiteMigration",
+            "label": "Website migration",
             "type": "checkbox"
         }
     ],
     "Hosting & Domain": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "hostingSetup",
+            "label": "Hosting setup",
             "type": "checkbox"
         }
     ],
     "Themes/Plugins Installation": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "pluginsExtensionsInstallation",
+            "label": "Plugins/extensions installation",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "themeInstallation",
+            "label": "Theme installation",
             "type": "checkbox"
         }
     ],
     "Help/Consultation": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "websiteAudit",
+            "label": "Website audit",
+            "type": "checkbox"
+        },
+        {
+            "key": "projectProductionPlan",
+            "label": "Project/production plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "costEstimation",
+            "label": "Cost estimation",
+            "type": "checkbox"
+        },
+        {
+            "key": "liveConsultation",
+            "label": "Live consultation (minutes)",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "15", "30", "45", "60", "75", "90", "105", "120"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
-            "type": "checkbox"
+            "key": "questionAnswered",
+            "label": "Question answered",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         }
     ],
     "Installation": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "softwareVersionUpgrade",
+            "label": "Software version upgrade",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "databaseCreation",
+            "label": "Database creation",
             "type": "checkbox"
         }
     ],
     "Speed Optimization": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "speedOptimization",
+            "label": "Speed optimization",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "browserCaching",
+            "label": "Browser Caching",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "resizePhotos",
+            "label": "Resize photos",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "minification",
+            "label": "Minification",
+            "type": "checkbox"
+        },
+        {
+            "key": "databaseOptimization",
+            "label": "Database Optimization",
             "type": "checkbox"
         }
     ],
     "Security": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "vulnerabilityTesting",
+            "label": "Vulnerability testing",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "malwareRemoval",
+            "label": "Malware Removal",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "securityPatchInstallation",
+            "label": "Security patch installation",
+            "type": "checkbox"
+        },
+        {
+            "key": "ssl_certificate",
+            "label": "SSL certificate",
+            "type": "checkbox"
+        },
+        {
+            "key": "blacklistRemoval",
+            "label": "Blacklist removal",
             "type": "checkbox"
         }
     ],
     "Analytics": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "analyticsSetup",
+            "label": "Analytics setup",
             "type": "checkbox"
         }
     ],
     "CRM & ERP Development": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "setupInstallation",
+            "label": "Setup & Installation",
+            "type": "checkbox"
+        },
+        {
+            "key": "dataMigration",
+            "label": "Data Migration",
+            "type": "checkbox"
+        },
+        {
+            "key": "customAutomations",
+            "label": "Custom Automations",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "dashboardReporting",
+            "label": "Dashboard & Reporting",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
+            "key": "external_api_integration",
+            "label": "External API Integration",
+            "type": "number"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "designCustomization",
+            "label": "Design customization",
             "type": "checkbox"
         }
     ],
     "Web Application": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
+            "key": "designCustomization",
+            "label": "Design customization",
+            "type": "checkbox"
+        },
+        {
+            "key": "contentUpload",
+            "label": "Content upload",
+            "type": "checkbox"
+        },
+        {
             "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "Desktop Applications": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
             "key": "sourceFile",
             "label": "Include Source File",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "detailedCodeComments",
+            "label": "Detailed code comments",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "designCustomization",
+            "label": "Design customization",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         }
     ],
     "API & Integrations": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "detailedCodeComments",
+            "label": "Detailed code comments",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "databaseIntegration",
+            "label": "Database integration",
             "type": "checkbox"
         }
     ],
     "Automations & Workflows": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "ApisIntegrated",
+            "label": "Number of APIs integrated",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "triggers_actions",
+            "label": "Number of Triggers / Actions",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "platformToolsIntegrated",
+            "label": "Number of Platform/Tools Integrated",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "dataSyncing",
+            "label": "Data Syncing",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "conditionalLogic",
+            "label": "Conditional Logic",
             "type": "checkbox"
         }
     ],
     "Browser Extensions": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "publishExtension",
+            "label": "Publish your extension",
             "type": "checkbox"
         }
     ],
     "Email Template": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
             "key": "responsiveDesign",
             "label": "Responsive Design",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "editableTemplate",
+            "label": "Editable template",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "emailTesting",
+            "label": "Email testing",
+            "type": "checkbox"
+        },
+        {
+            "key": "uploadTemplate",
+            "label": "Upload template",
             "type": "checkbox"
         }
     ],
     "Figma to Web & App": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "responsiveDesign",
+            "label": "Responsive design",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "sliderScroller",
+            "label": "Slider/scroller",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "customAdminPanel",
+            "label": "Custom admin panel",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "serverUpload",
+            "label": "Server upload",
+            "type": "checkbox"
+        },
+        {
+            "key": "browserCompatibility",
+            "label": "Browser compatibility",
             "type": "checkbox"
         }
     ],
     "Scripting": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "pagesMinedScraped",
+            "label": "Pages mined/scraped",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "sourcesMinedScraped",
+            "label": "Sources mined/scraped",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "Install script",
+            "label": "Install script",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "testScript",
+            "label": "Test script",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "taskAutomation",
+            "label": "Task automation",
             "type": "checkbox"
         }
     ],
     "Plugins Development": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "functionalPlugin",
+            "label": "Functional plugin",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "detailedCodeComments",
+            "label": "Detailed code comments",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "Cross-Platform Development": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalAndroidApp",
+            "label": "Functional Android app",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "functional_ios_app",
+            "label": "Functional IOS App",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "appDesign",
+            "label": "App design",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "appSubmission",
+            "label": "App submission",
+            "type": "checkbox"
+        },
+        {
+            "key": "appIcon",
+            "label": "App icon",
+            "type": "checkbox"
+        },
+        {
+            "key": "splashScreen",
+            "label": "Splash screen",
+            "type": "checkbox"
+        },
+        {
+            "key": "adNetworkIntegration",
+            "label": "Ad network integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "Website to App": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalAndroidApp",
+            "label": "Functional Android app",
+            "type": "checkbox"
+        },
+        {
+            "key": "functional_ios_app",
+            "label": "Functional IOS App",
+            "type": "checkbox"
+        },
+        {
+            "key": "appDesign",
+            "label": "App design",
+            "type": "checkbox"
+        },
+        {
+            "key": "appSubmission",
+            "label": "App submission",
+            "type": "checkbox"
+        },
+        {
+            "key": "mobileOperatingSystems",
+            "label": "Mobile operating systems",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1",
+                "2",
+                "3"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "appIcon",
+            "label": "App icon",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "splashScreen",
+            "label": "Splash screen",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "adNetworkIntegration",
+            "label": "Ad network integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "Android App Development": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "functionalAndroidApp",
+            "label": "Functional Android app",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "appDesign",
+            "label": "App design",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "appSubmission",
+            "label": "App submission",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "appIcon",
+            "label": "App icon",
+            "type": "checkbox"
+        },
+        {
+            "key": "splashScreen",
+            "label": "Splash screen",
+            "type": "checkbox"
+        },
+        {
+            "key": "backendDevelopment",
+            "label": "Backend Development",
+            "type": "checkbox"
+        },
+        {
+            "key": "adNetworkIntegration",
+            "label": "Ad network integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "iOS App Development": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "functionalAndroidApp",
+            "label": "Functional Android app",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "appDesign",
+            "label": "App design",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "appSubmission",
+            "label": "App submission",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "appIcon",
+            "label": "App icon",
+            "type": "checkbox"
+        },
+        {
+            "key": "splashScreen",
+            "label": "Splash screen",
+            "type": "checkbox"
+        },
+        {
+            "key": "backendDevelopment",
+            "label": "Backend Development",
+            "type": "checkbox"
+        },
+        {
+            "key": "adNetworkIntegration",
+            "label": "Ad network integration",
+            "type": "checkbox"
+        },
+        {
+            "key": "includeSourceCode",
+            "label": "Include source code",
             "type": "checkbox"
         }
     ],
     "TV App Development": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "functionalAndroidApp",
+            "label": "Functional Android app",
+            "type": "checkbox"
+        },
+        {
+            "key": "appDesign",
+            "label": "App design",
+            "type": "checkbox"
+        },
+        {
+            "key": "apisIntegrated",
+            "label": "Number of APIs integrated",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "userAuthentication",
+            "label": "User authentication",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "sourceCode",
+            "label": "Source code",
             "type": "checkbox"
         }
     ],

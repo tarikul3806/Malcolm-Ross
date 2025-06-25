@@ -5178,72 +5178,84 @@ export const featureOptionsBySubCategory = {
     ],
     "Songwriters": [
         {
-            "key": "songwriters_feature_1",
-            "label": "Songwriters Specific Option 1",
+            "key": "numberOfVerses",
+            "label": "Number of verses",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
         },
         {
-            "key": "songwriters_feature_2",
-            "label": "Songwriters Specific Option 2",
+            "key": "chorus",
+            "label": "Chorus",
             "type": "checkbox"
         },
         {
-            "key": "songwriters_feature_3",
-            "label": "Songwriters Specific Option 3",
-            "type": "number"
+            "key": "bridge",
+            "label": "Bridge",
+            "type": "checkbox"
         },
         {
-            "key": "songwriters_feature_4",
-            "label": "Songwriters Specific Option 4",
-            "type": "text"
+            "key": "melodyWriting",
+            "label": "Melody writing",
+            "type": "checkbox"
         },
         {
-            "key": "songwriters_feature_5",
-            "label": "Songwriters Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "vocalsRecording",
+            "label": "Vocals recording",
+            "type": "checkbox"
+        },
+        {
+            "key": "lyricsWriting",
+            "label": "Lyrics writing",
+            "type": "checkbox"
+        },
+        {
+            "key": "commercialUse",
+            "label": "Commercial Use",
+            "type": "checkbox"
         }
     ],
     "Podcast Production": [
         {
-            "key": "podcast_production_feature_1",
-            "label": "Podcast Production Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "podcast_production_feature_2",
-            "label": "Podcast Production Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "podcast_production_feature_3",
-            "label": "Podcast Production Specific Option 3",
+            "key": "uneditedAudioLength",
+            "label": "Unedited audio length (minutes)",
             "type": "number"
         },
         {
-            "key": "podcast_production_feature_4",
-            "label": "Podcast Production Specific Option 4",
-            "type": "text"
+            "key": "audioEditingNoiseReduction",
+            "label": "Audio Editing & Noise Reduction",
+            "type": "checkbox"
         },
         {
-            "key": "podcast_production_feature_5",
-            "label": "Podcast Production Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "writeShowNotes",
+            "label": "Write show notes",
+            "type": "checkbox"
+        },
+        {
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
+        },
+        {
+            "key": "add_id3_tags",
+            "label": "Add ID3 tags",
+            "type": "checkbox"
+        },
+        {
+            "key": "addIntroOutroAds",
+            "label": "Add intro/outro/ads",
+            "type": "checkbox"
+        },
+        {
+            "key": "liveShowProduction",
+            "label": "Live show production",
+            "type": "checkbox"
+        },
+        {
+            "key": "podcastDistribution",
+            "label": "Podcast Distribution",
+            "type": "checkbox"
         }
     ],
     "Sound Design": [
@@ -5283,37 +5295,44 @@ export const featureOptionsBySubCategory = {
     ],
     "Audiobook Production": [
         {
-            "key": "audiobook_production_feature_1",
-            "label": "Audiobook Production Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "audiobook_production_feature_2",
-            "label": "Audiobook Production Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "audiobook_production_feature_3",
-            "label": "Audiobook Production Specific Option 3",
+            "key": "minutesIncluded",
+            "label": "Minutes Included",
             "type": "number"
         },
         {
-            "key": "audiobook_production_feature_4",
-            "label": "Audiobook Production Specific Option 4",
-            "type": "text"
+            "key": "voiceOverRecording",
+            "label": "Voice over recording",
+            "type": "checkbox"
         },
         {
-            "key": "audiobook_production_feature_5",
-            "label": "Audiobook Production Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "proofing",
+            "label": "Proofing",
+            "type": "checkbox"
+        },
+        {
+            "key": "audioEditing",
+            "label": "Audio editing",
+            "type": "checkbox"
+        },
+        {
+            "key": "splitChapters",
+            "label": "Split chapters",
+            "type": "checkbox"
+        },
+        {
+            "key": "retailAudioSample",
+            "label": "Retail audio sample",
+            "type": "checkbox"
+        },
+        {
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
+        },
+        {
+            "key": "wordsIncluded",
+            "label": "Words included",
+            "type": "number"
         }
     ],
     "Online Music Lessons": [
@@ -5353,177 +5372,188 @@ export const featureOptionsBySubCategory = {
     ],
     "Audio Editing": [
         {
-            "key": "audio_editing_feature_1",
-            "label": "Audio Editing Specific Option 1",
+            "key": "numberOfAudioTracks",
+            "label": "Number of audio tracks",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25"
             ]
         },
         {
-            "key": "audio_editing_feature_2",
-            "label": "Audio Editing Specific Option 2",
+            "key": "videoSync",
+            "label": "Video sync",
             "type": "checkbox"
         },
         {
-            "key": "audio_editing_feature_3",
-            "label": "Audio Editing Specific Option 3",
+            "key": "uneditedAudioLength",
+            "label": "Unedited audio length (minutes)",
             "type": "number"
-        },
-        {
-            "key": "audio_editing_feature_4",
-            "label": "Audio Editing Specific Option 4",
-            "type": "text"
-        },
-        {
-            "key": "audio_editing_feature_5",
-            "label": "Audio Editing Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
         }
     ],
     "Audio Ads Production": [
         {
-            "key": "audio_ads_production_feature_1",
-            "label": "Audio Ads Production Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "audio_ads_production_feature_2",
-            "label": "Audio Ads Production Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "audio_ads_production_feature_3",
-            "label": "Audio Ads Production Specific Option 3",
+            "key": "runningTime",
+            "label": "Running time (seconds)",
             "type": "number"
         },
         {
-            "key": "audio_ads_production_feature_4",
-            "label": "Audio Ads Production Specific Option 4",
-            "type": "text"
+            "key": "voiceRecording",
+            "label": "Voice recording",
+            "type": "checkbox"
         },
         {
-            "key": "audio_ads_production_feature_5",
-            "label": "Audio Ads Production Specific Option 5",
+            "key": "scriptWriting",
+            "label": "Script writing",
+            "type": "checkbox"
+        },
+        {
+            "key": "specialEffects",
+            "label": "Special effects",
+            "type": "checkbox"
+        },
+        {
+            "key": "audienceResearch",
+            "label": "Audience research",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfAdVersions",
+            "label": "Number of ad versions",
             "type": "dropdown",
             "options": [
-                "Choice 1",
-                "Choice 2"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
+        },
+        {
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
         }
     ],
     "Music Transcription": [
         {
-            "key": "music_transcription_feature_1",
-            "label": "Music Transcription Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "music_transcription_feature_2",
-            "label": "Music Transcription Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "music_transcription_feature_3",
-            "label": "Music Transcription Specific Option 3",
+            "key": "audioLength",
+            "label": "Audio length (in seconds)",
             "type": "number"
         },
         {
-            "key": "music_transcription_feature_4",
-            "label": "Music Transcription Specific Option 4",
-            "type": "text"
-        },
-        {
-            "key": "music_transcription_feature_5",
-            "label": "Music Transcription Specific Option 5",
+            "key": "numberOfMonophonicInstruments",
+            "label": "Number of monophonic instruments",
             "type": "dropdown",
             "options": [
-                "Choice 1",
-                "Choice 2"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
             ]
+        },
+        {
+            "key": "numberOfPolyphonicInstruments",
+            "label": "Number of polyphonic instruments",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "complexPiece",
+            "label": "Complex piece",
+            "type": "checkbox"
+        },
+        {
+            "key": "lyricsIncluded",
+            "label": "Lyrics included",
+            "type": "checkbox"
+        },
+        {
+            "key": "Project file delivery",
+            "label": "Project file delivery",
+            "type": "checkbox"
         }
     ],
     "Vocal Tuning": [
         {
-            "key": "vocal_tuning_feature_1",
-            "label": "Vocal Tuning Specific Option 1",
+            "key": "numberOfVocalTracks",
+            "label": "Number of vocal tracks",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15"
             ]
         },
         {
-            "key": "vocal_tuning_feature_2",
-            "label": "Vocal Tuning Specific Option 2",
+            "key": "manualTuning",
+            "label": "Manual tuning",
             "type": "checkbox"
         },
         {
-            "key": "vocal_tuning_feature_3",
-            "label": "Vocal Tuning Specific Option 3",
-            "type": "number"
+            "key": "audioEditing",
+            "label": "Audio editing",
+            "type": "checkbox"
         },
         {
-            "key": "vocal_tuning_feature_4",
-            "label": "Vocal Tuning Specific Option 4",
-            "type": "text"
+            "key": "timeAlignment",
+            "label": "timeAlignment",
+            "type": "checkbox"
         },
         {
-            "key": "vocal_tuning_feature_5",
-            "label": "Vocal Tuning Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "harmonyCreation",
+            "label": "Harmony creation",
+            "type": "checkbox"
         }
     ],
     "Custom Songs": [
         {
-            "key": "custom_songs_feature_1",
-            "label": "Custom Songs Specific Option 1",
+            "key": "songLength",
+            "label": "Song length (minutes)",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15"
             ]
         },
         {
-            "key": "custom_songs_feature_2",
-            "label": "Custom Songs Specific Option 2",
+            "key": "chorus",
+            "label": "Chorus",
             "type": "checkbox"
         },
         {
-            "key": "custom_songs_feature_3",
-            "label": "Custom Songs Specific Option 3",
-            "type": "number"
-        },
-        {
-            "key": "custom_songs_feature_4",
-            "label": "Custom Songs Specific Option 4",
-            "type": "text"
-        },
-        {
-            "key": "custom_songs_feature_5",
-            "label": "Custom Songs Specific Option 5",
+            "key": "numberOfVerses",
+            "label": "Number of verses",
             "type": "dropdown",
             "options": [
-                "Choice 1",
-                "Choice 2"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15"
             ]
+        },
+        {
+            "key": "bridge",
+            "label": "Bridge",
+            "type": "checkbox"
+        },
+        {
+            "key": "mixingMastering",
+            "label": "Mixing & mastering",
+            "type": "checkbox"
+        },
+        {
+            "key": "vocalsRecording",
+            "label": "Vocals recording",
+            "type": "checkbox"
+        },
+        {
+            "key": "lyricsWriting",
+            "label": "Lyrics writing",
+            "type": "checkbox"
+        },
+        {
+            "key": "musicDistribution",
+            "label": "Music distribution",
+            "type": "checkbox"
+        },
+        {
+            "key": "commercialUse",
+            "label": "Commercial Use",
+            "type": "checkbox"
         }
     ],
     "DJ Drops & Tags": [
@@ -5633,37 +5663,24 @@ export const featureOptionsBySubCategory = {
     ],
     "Meditation Music": [
         {
-            "key": "meditation_music_feature_1",
-            "label": "Meditation Music Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "meditation_music_feature_2",
-            "label": "Meditation Music Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "meditation_music_feature_3",
-            "label": "Meditation Music Specific Option 3",
+            "key": "recordingLength",
+            "label": "Recording length (in minutes)",
             "type": "number"
         },
         {
-            "key": "meditation_music_feature_4",
-            "label": "Meditation Music Specific Option 4",
-            "type": "text"
+            "key": "commercialUse",
+            "label": "Commercial use",
+            "type": "checkbox"
         },
         {
-            "key": "meditation_music_feature_5",
-            "label": "Meditation Music Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "separateFiles",
+            "label": "Separate files",
+            "type": "checkbox"
+        },
+        {
+            "key": "voiceOverAdded",
+            "label": "Voice-over added",
+            "type": "checkbox"
         }
     ],
     "Jingles & Intros": [
@@ -5703,37 +5720,34 @@ export const featureOptionsBySubCategory = {
     ],
     "Audio Logo & Sonic Branding": [
         {
-            "key": "audio_logo_&_sonic_branding_feature_1",
-            "label": "Audio Logo & Sonic Branding Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "audio_logo_&_sonic_branding_feature_2",
-            "label": "Audio Logo & Sonic Branding Specific Option 2",
-            "type": "checkbox"
-        },
-        {
-            "key": "audio_logo_&_sonic_branding_feature_3",
-            "label": "Audio Logo & Sonic Branding Specific Option 3",
+            "key": "numberOfSfx",
+            "label": "Number of sfx",
             "type": "number"
         },
         {
-            "key": "audio_logo_&_sonic_branding_feature_4",
-            "label": "Audio Logo & Sonic Branding Specific Option 4",
-            "type": "text"
+            "key": "runningTime",
+            "label": "Running time (seconds)",
+            "type": "number"
         },
         {
-            "key": "audio_logo_&_sonic_branding_feature_5",
-            "label": "Audio Logo & Sonic Branding Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "videoSync",
+            "label": "Video sync",
+            "type": "checkbox"
+        },
+        {
+            "key": "songCreation",
+            "label": "Song creation",
+            "type": "checkbox"
+        },
+        {
+            "key": "voiceOverAdded",
+            "label": "Voice-over added",
+            "type": "checkbox"
+        },
+        {
+            "key": "productSoundDesign",
+            "label": "Product sound design",
+            "type": "checkbox"
         }
     ],
     "Music & Audio Advice": [
@@ -5808,37 +5822,34 @@ export const featureOptionsBySubCategory = {
     ],
     "Audio Plugin Development": [
         {
-            "key": "audio_plugin_development_feature_1",
-            "label": "Audio Plugin Development Specific Option 1",
+            "key": "#_of_pages_screens",
+            "label": "# of Pages / Screens",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25"
             ]
         },
         {
-            "key": "audio_plugin_development_feature_2",
-            "label": "Audio Plugin Development Specific Option 2",
+            "key": "design_gui_creation",
+            "label": "Design/GUI creation",
             "type": "checkbox"
         },
         {
-            "key": "audio_plugin_development_feature_3",
-            "label": "Audio Plugin Development Specific Option 3",
-            "type": "number"
+            "key": "includeSourceCode",
+            "label": "Include Source Code",
+            "type": "checkbox"
         },
         {
-            "key": "audio_plugin_development_feature_4",
-            "label": "Audio Plugin Development Specific Option 4",
-            "type": "text"
+            "key": "apiIntegration",
+            "label": "API integration",
+            "type": "checkbox"
         },
         {
-            "key": "audio_plugin_development_feature_5",
-            "label": "Audio Plugin Development Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "functionalPlugin",
+            "label": "Functional plugin",
+            "type": "checkbox"
         }
     ],
     "Website Development": [
