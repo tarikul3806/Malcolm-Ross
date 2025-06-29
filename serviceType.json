@@ -12819,1708 +12819,1828 @@ const featureOptionsByServiceType = {
     ],
     "Call Center & Calling": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfMessages",
+            "label": "Number of messages",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
+                "110", "120", "130", "140", "150", "160", "170", "180", "190", "200",
+                "210", "220", "230", "240", "250", "260", "270", "280", "290", "300",
+                "310", "320", "330", "340", "350", "360", "370", "380", "390", "400",
+                "410", "420", "430", "440", "450", "460", "470", "480", "490", "500"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "hoursOfWork",
+            "label": "Hours of work",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "scriptWriting",
+            "label": "Script writing",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "appointmentSetting",
+            "label": "Appointment setting",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "summaryReport",
+            "label": "Summary report",
+            "type": "checkbox"
+        },
+        {
+            "key": "outboundCalls",
+            "label": "Number of outbound calls",
+            "type": "dropdown",
+            "options": [
+                "0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"
+            ]
+        },
+        {
+            "key": "inboundCalls",
+            "label": "Number of inbound calls",
+            "type": "dropdown",
+            "options": [
+                "0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"
+            ]
+        },
+        {
+            "key": "callBacks",
+            "label": "Number of call backs",
+            "type": "dropdown",
+            "options": [
+                "0", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50"
+            ]
+        },
+        {
+            "key": "numberOfDays",
+            "label": "Number of days",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "emailSends",
+            "label": "Email sends",
+            "type": "dropdown",
+            "options": [
+                "0", "100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"
+            ]
+        },
+        {
+            "key": "leadList",
+            "label": "Lead list",
+            "type": "checkbox"
+        },
+        {
+            "key": "shipping",
+            "label": "Shipping",
             "type": "checkbox"
         }
     ],
     "Messaging & Emailing": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "numberOfMessages",
+            "label": "Number of messages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
+                "110", "120", "130", "140", "150", "160", "170", "180", "190", "200",
+                "210", "220", "230", "240", "250", "260", "270", "280", "290", "300",
+                "310", "320", "330", "340", "350", "360", "370", "380", "390", "400",
+                "410", "420", "430", "440", "450", "460", "470", "480", "490", "500"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "hoursOfWork",
+            "label": "Hours of work",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "contentWriting",
+            "label": "Content writing",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "liveChat",
+            "label": "Live chat",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "appointmentSetting",
+            "label": "Appointment setting",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "Research Assistant": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "hoursOfWork",
+            "label": "Hours of work",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "graphTableCreation",
+            "label": "Graph or Table Creation",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "presentation",
+            "label": "Presentation",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "summary",
+            "label": "Summary",
             "type": "checkbox"
         }
     ],
     "File Conversion": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "pagesConverted",
+            "label": "Pages converted",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "bulkConversion",
+            "label": "Bulk conversion",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "formatting_clean_up",
+            "label": "Formatting & clean up",
+            "type": "checkbox"
+        },
+        {
+            "key": "shipping",
+            "label": "Shipping",
             "type": "checkbox"
         }
     ],
     "Template Docs & Formatting": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "numberOfPages",
+            "label": "Number of pages",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
         }
     ],
     "General Assistance": [
-        {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
-            "type": "checkbox"
-        }
+
     ],
     "Fact Checking": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "wordsIncluded",
+            "label": "Words included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "factsChecked",
+            "label": "Facts checked",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "referencesCitations",
+            "label": "References & citations",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "rewrite",
+            "label": "Rewrite",
             "type": "checkbox"
         }
     ],
     "Business Plans for Startups": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "executiveSummary",
+            "label": "Executive summary",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "companyDescription",
+            "label": "Company description",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "investorsList",
+            "label": "Investors list",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerAnalysis",
+            "label": "Customer analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "reviewCritique",
+            "label": "Review & critique",
+            "type": "checkbox"
+        },
+        {
+            "key": "industry_competitive_analysis",
+            "label": "Industry & competitive analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tam_calculation_analysis",
+            "label": "TAM calculation or analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tailoredMarketingPlan",
+            "label": "Tailored marketing plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "pitchDeck",
+            "label": "Pitch deck",
             "type": "checkbox"
         }
     ],
     "Business Plans for Loan Approval": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "executiveSummary",
+            "label": "Executive summary",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "companyDescription",
+            "label": "Company description",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "investorsList",
+            "label": "Investors list",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerAnalysis",
+            "label": "Customer analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "reviewCritique",
+            "label": "Review & critique",
+            "type": "checkbox"
+        },
+        {
+            "key": "industry_competitive_analysis",
+            "label": "Industry & competitive analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tam_calculation_analysis",
+            "label": "TAM calculation or analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tailoredMarketingPlan",
+            "label": "Tailored marketing plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "pitchDeck",
+            "label": "Pitch deck",
             "type": "checkbox"
         }
     ],
     "Business Plans for Non-Profits": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "executiveSummary",
+            "label": "Executive summary",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "companyDescription",
+            "label": "Company description",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "investorsList",
+            "label": "Investors list",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerAnalysis",
+            "label": "Customer analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "reviewCritique",
+            "label": "Review & critique",
+            "type": "checkbox"
+        },
+        {
+            "key": "industry_competitive_analysis",
+            "label": "Industry & competitive analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tam_calculation_analysis",
+            "label": "TAM calculation or analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tailoredMarketingPlan",
+            "label": "Tailored marketing plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "pitchDeck",
+            "label": "Pitch deck",
             "type": "checkbox"
         }
     ],
     "Business Plans for Immigration": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "executiveSummary",
+            "label": "Executive summary",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "companyDescription",
+            "label": "Company description",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "investorsList",
+            "label": "Investors list",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerAnalysis",
+            "label": "Customer analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "reviewCritique",
+            "label": "Review & critique",
+            "type": "checkbox"
+        },
+        {
+            "key": "industry_competitive_analysis",
+            "label": "Industry & competitive analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tam_calculation_analysis",
+            "label": "TAM calculation or analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tailoredMarketingPlan",
+            "label": "Tailored marketing plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "pitchDeck",
+            "label": "Pitch deck",
             "type": "checkbox"
         }
     ],
     "Business Plans for Partnerships": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "executiveSummary",
+            "label": "Executive summary",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "companyDescription",
+            "label": "Company description",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "investorsList",
+            "label": "Investors list",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerAnalysis",
+            "label": "Customer analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "reviewCritique",
+            "label": "Review & critique",
+            "type": "checkbox"
+        },
+        {
+            "key": "industry_competitive_analysis",
+            "label": "Industry & competitive analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tam_calculation_analysis",
+            "label": "TAM calculation or analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "tailoredMarketingPlan",
+            "label": "Tailored marketing plan",
             "type": "checkbox"
         }
     ],
     "Full Package Qual & Quant": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "recruiting",
+            "label": "Recruiting",
+            "type": "checkbox"
+        },
+        {
+            "key": "contentCreation",
+            "label": "Content creation",
+            "type": "checkbox"
+        },
+        {
+            "key": "interviewsConducted",
+            "label": "Interviews conducted",
+            "type": "checkbox"
+        },
+        {
+            "key": "surveysConducted",
+            "label": "Surveys conducted",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfParticipants",
+            "label": "Number of participants",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "50", "100", "150", "200", "250", "300", "350", "400", "450", "500",
+                "550", "600", "650", "700", "750", "800", "850", "900", "950", "1000"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "landscapeAnalysis",
+            "label": "Landscape analysis",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "Interviews & Focus Groups": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "participantsRecruited",
+            "label": "No. of participants recruited",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "participantsScreened",
+            "label": "Number of participants screened",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "numberOfParticipants",
+            "label": "Number of participants",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "contentCreation",
+            "label": "Content creation",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "numberOfSessions",
+            "label": "Number of sessions",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "numberOfInterviews",
+            "label": "Number of interviews",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "recordings_transcripts",
+            "label": "Recordings/transcripts",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "resultsAnalysis",
+            "label": "Results analysis",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "researchSummaryReport",
+            "label": "Research summary report",
+            "type": "checkbox"
+        },
+        {
+            "key": "analysis_summary_presentation",
+            "label": "Analysis/summary presentation",
             "type": "checkbox"
         }
     ],
     "Domain Name Research": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "socialMediaHandle",
+            "label": "Number of social media handle",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
+            "key": "domainName",
+            "label": "Number of domain name",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "Summary report",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "General Online Research": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "commercialSources",
+            "label": "Commercial sources",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "Presentation",
+            "label": "Presentation",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "analysis",
+            "label": "Analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "Surveys": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "participantsRecruited",
+            "label": "No. of participants recruited",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "participantsScreened",
+            "label": "Number of participants screened",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "numberOfParticipants",
+            "label": "Number of participants",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+            ]
+        },
+        {
+            "key": "contentCreation",
+            "label": "Content creation",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "advancedSurveyLogic",
+            "label": "Advanced survey logic",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "numberOfQuestions",
+            "label": "Number of questions",
+            "type": "dropdown",
+            "options": [
+                "5", "10", "15", "20", "25", "30", "35", "40", "45", "50"
+            ]
+        },
+        {
+            "key": "statisticalAnalysis",
+            "label": "Statistical analysis",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "summaryReport",
+            "label": "Summary report",
+            "type": "checkbox"
+        },
+        {
+            "key": "summaryPresentation",
+            "label": "Summary presentation",
+            "type": "checkbox"
+        },
+        {
+            "key": "rawData",
+            "label": "Raw data",
             "type": "checkbox"
         }
     ],
     "Business Strategy & Innovation": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "consultingMinutes",
+            "label": "Consulting minutes",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "30", "60", "90", "120", "150", "180", "210", "240", "270", "300"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "strategyImplementationDocument",
+            "label": "Strategy implementation document",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "consultingDeck",
+            "label": "Consulting Deck",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "innovationPlan",
+            "label": "Innovation Plan",
+            "type": "checkbox"
+        },
+        {
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
+            "type": "checkbox"
+        },
+        {
+            "key": "initialAssessment",
+            "label": "Initial assessment",
             "type": "checkbox"
         }
     ],
     "Business Efficiency & Automation": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "consultingHours",
+            "label": "Consulting hours",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "initialAssessment",
+            "label": "Initial assessment",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "strategyImplementationDocument",
+            "label": "Strategy implementation document",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "consultingDeck",
+            "label": "Consulting Deck",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
+        },
+        {
+            "key": "automationImplementation",
+            "label": "Automation Implementation",
             "type": "checkbox"
         }
     ],
     "Risk Management": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "consultingHours",
+            "label": "Consulting hours",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "riskReport",
+            "label": "Risk Report",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "swot_analysis",
+            "label": "SWOT analysis",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "initialAssessment",
+            "label": "Initial assessment",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "strategyImplementationDocument",
+            "label": "Strategy implementation document",
+            "type": "checkbox"
+        },
+        {
+            "key": "consultingDeck",
+            "label": "Consulting Deck",
+            "type": "checkbox"
+        },
+        {
+            "key": "financialForecast",
+            "label": "Financial forecast",
             "type": "checkbox"
         }
     ],
     "Digital Transformation Consulting": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "consultingHours",
+            "label": "Consulting hours",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "initialAssessment",
+            "label": "Initial assessment",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "strategyImplementationDocument",
+            "label": "Strategy implementation document",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "consultingDeck",
+            "label": "Consulting Deck",
+            "type": "checkbox"
+        },
+        {
+            "key": "financialForecast",
+            "label": "Financial forecast",
             "type": "checkbox"
         }
     ],
     "Pitch Decks": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "reviewEdit",
+            "label": "Review & edit",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
+            "key": "slidesIncluded",
+            "label": "Slides included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "visualEnhancement",
+            "label": "Visual enhancement",
+            "type": "checkbox"
+        },
+        {
+            "key": "financialForecast",
+            "label": "Financial forecast",
             "type": "checkbox"
         }
     ],
     "Course Presentations": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
+        },
+        {
+            "key": "reviewEdit",
+            "label": "Review & edit",
+            "type": "checkbox"
+        },
+        {
+            "key": "slidesIncluded",
+            "label": "Slides included",
             "type": "number"
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "visualEnhancement",
+            "label": "Visual enhancement",
             "type": "checkbox"
         }
     ],
     "Business Presentations": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "reviewEdit",
+            "label": "Review & edit",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
+            "key": "slidesIncluded",
+            "label": "Slides included",
             "type": "number"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "visualEnhancement",
+            "label": "Visual enhancement",
             "type": "checkbox"
         }
     ],
     "CRM Management": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "accountSetup",
+            "label": "Account setup",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "trainingSession",
+            "label": "Training session",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "accountManagement",
+            "label": "Account management",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "automationPlanning",
+            "label": "Automation planning",
+            "type": "checkbox"
+        },
+        {
+            "key": "analyticsReport",
+            "label": "Analytics report",
             "type": "checkbox"
         }
     ],
     "Project Management Software": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "onboarding_training",
+            "label": "Onboarding & training",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "workflowsImplementation",
+            "label": "Workflows implementation",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "accountManagement",
+            "label": "Account management",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "automationPlanning",
+            "label": "Automation planning",
+            "type": "checkbox"
+        },
+        {
+            "key": "analyticsReport",
+            "label": "Analytics report",
             "type": "checkbox"
         }
     ],
     "ERP Management": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "accountSetup",
+            "label": "Account setup",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "trainingSession",
+            "label": "Training session",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "accountManagement",
+            "label": "Account management",
+            "type": "checkbox"
+        },
+        {
+            "key": "automationPlanning",
+            "label": "Automation planning",
+            "type": "checkbox"
+        },
+        {
+            "key": "analyticsReport",
+            "label": "Analytics report",
             "type": "checkbox"
         }
     ],
     "Organizational Development": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "organizationalStructure",
+            "label": "Organizational structure",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "employeeOnboardingProcess",
+            "label": "Employee onboarding process",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "employeeLeveling",
+            "label": "Employee leveling",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "employeeFeedback",
+            "label": "Employee feedback",
             "type": "checkbox"
         }
     ],
     "Talent Acquisition & Recruitment": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "candidateSourcing",
+            "label": "Candidate sourcing",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "candidateScreening",
+            "label": "Candidate screening",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "interviewConsulting",
+            "label": "Interview consulting",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "recruitingProcessConsulting",
+            "label": "Recruiting process consulting",
             "type": "checkbox"
+        },
+        {
+            "key": "backgroundChecks",
+            "label": "Background checks",
+            "type": "checkbox"
+        },
+        {
+            "key": "jobDescriptions",
+            "label": "Job descriptions",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         }
     ],
     "Performance Management": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "employeeFeedback",
+            "label": "Employee feedback",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "performanceMeasurement",
+            "label": "Performance measurement",
             "type": "checkbox"
         }
     ],
     "Employee Learning & Development": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "professionalTraining",
+            "label": "Professional training",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "softSkillsTraining",
+            "label": "Soft skills training",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "managementDevelopment",
+            "label": "Management development",
             "type": "checkbox"
         }
     ],
     "Compensation & Benefits": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "salary_benefits_benchmarking",
+            "label": "Salary & benefits benchmarking",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "total_compensation_structuring",
+            "label": "Total compensation structuring",
             "type": "checkbox"
         }
     ],
     "HR Information Systems": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "hr_data_analytics",
+            "label": "HR data & analytics",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "hr_system_management",
+            "label": "HR system management",
             "type": "checkbox"
         }
     ],
     "Customer Support": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "numberOfDays",
+            "label": "Number of days",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "hoursOfWork",
+            "label": "Hours of work",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "emailSupport",
+            "label": "Email support",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "socialMediaReplies",
+            "label": "Social media replies",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "liveChatSupport",
+            "label": "Live chat support",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "phoneSupport",
+            "label": "Phone support",
+            "type": "checkbox"
+        },
+        {
+            "key": "summaryReport",
+            "label": "Summary report",
+            "type": "checkbox"
+        },
+        {
+            "key": "knowledgeBaseMaintenance",
+            "label": "Knowledge base maintenance",
             "type": "checkbox"
         }
     ],
     "Planning & Setup": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "helpCenterCreationAndMaintenance",
+            "label": "Help center creation and maintenance",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "knowledgebaseCreationAndMaintenance",
+            "label": "Knowledgebase creation and maintenance",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "systemsSetup",
+            "label": "Systems setup",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "macrosDevelopment",
+            "label": "Macros development",
+            "type": "checkbox"
+        },
+        {
+            "key": "customerCareProcessesAndJourneysPlaybook",
+            "label": "Customer care processes and journeys playbook",
+            "type": "checkbox"
+        },
+        {
+            "key": "agentTraining",
+            "label": "Agent training",
             "type": "checkbox"
         }
     ],
     "Consulting": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "consultingHours",
+            "label": "Consulting hours",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
-            "type": "checkbox"
-        },
-        {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "Customer Success": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "customerSuccessHoursOfWork",
+            "label": "Customer success hours of work",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
-            "type": "checkbox"
-        },
-        {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         }
     ],
     "Corporate Investigations": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "numberOfMonitoringHoursPerDay",
+            "label": "Number of Monitoring Hours Per Day",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "liveConsultation",
+            "label": "Live consultation",
             "type": "checkbox"
         }
     ],
     "CCTV Monitoring": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "numberOfMonitoringHoursPerDay",
+            "label": "Number of Monitoring Hours Per Day",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "numberOfMonitoringHoursPerDay",
+            "label": "Number of Monitoring Hours Per Day",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
+        },
+        {
+            "key": "minuteLogLedgerMaintenance",
+            "label": "Minute Log Ledger Maintenance",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "onlineReporting",
+            "label": "Online Reporting",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "timelySummaryReports",
+            "label": "Timely Summary Reports",
+            "type": "checkbox"
+        },
+        {
+            "key": "footageEnhancement",
+            "label": "Footage Enhancement",
+            "type": "checkbox"
+        },
+        {
+            "key": "cctvAdministratorServices",
+            "label": "CCTV Administrator Services",
             "type": "checkbox"
         }
     ],
     "Background Checks": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "backgroundChecks",
+            "label": "Background checks",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
-            "type": "checkbox"
-        },
-        {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "liveConsultation",
+            "label": "Live consultation",
             "type": "checkbox"
         }
     ],
     "Skip Tracing": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "numberOfTraces",
+            "label": "Number of traces",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "summaryReport",
+            "label": "Summary report",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "liveConsultation",
+            "label": "Live consultation",
             "type": "checkbox"
         }
     ],
     "Customs & Tariff Advisory": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "consultingServices",
+            "label": "Consulting services",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "customDutiesAndTaxesEstimation",
+            "label": "Custom Duties & Taxes Estimation",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "riskAssessment",
+            "label": "Risk assessment",
             "type": "checkbox"
         }
     ],
     "Logistics": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "inventoryManagement",
+            "label": "Inventory management",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfProducts",
+            "label": "Number of products",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "logisticsPlanning",
+            "label": "Logistics planning",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "supplyChainManagement",
+            "label": "Supply chain management",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "leanManufacturing",
+            "label": "Lean manufacturing",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "import_export_management",
+            "label": "Import/export management",
             "type": "checkbox"
+        },
+        {
+            "key": "safetyTestingCertificationManagement",
+            "label": "Safety testing & certification management",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+            ]
         }
     ],
     "Procurement & Vendor Management": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "vendorSourcing",
+            "label": "Vendor sourcing",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "sourcingStrategy",
+            "label": "Sourcing strategy",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "budgetAnalysis",
+            "label": "Budget analysis",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
+            "key": "contractNegotiation",
+            "label": "Contract negotiation",
+            "type": "dropdown",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
-            "type": "checkbox"
+            "key": "contract_terms_conditions_review",
+            "label": "Contract terms & conditions review",
+            "type": "dropdown",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "key": "productVerificationTesting",
+            "label": "Product verification testing",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+            ]
+        },
+        {
+            "key": "supplier_vendor_outreach",
+            "label": "Supplier/vendor outreach",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100"
+            ]
+        },
+        {
+            "key": "supplier_vendor_management",
+            "label": "Supplier/vendor management",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+            ]
         }
     ],
     "User Research & Insights": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "interviews",
+            "label": "Interviews",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "Usability testing",
+            "label": "Usability testing",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "personaDevelopment",
+            "label": "Persona Development",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "userJourney",
+            "label": "User Journey",
+            "type": "checkbox"
+        },
+        {
+            "key": "competitionResearch",
+            "label": "Competition research",
             "type": "checkbox"
         }
     ],
     "Product Strategy & Roadmapping": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "problemDefinition",
+            "label": "Problem Definition",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "competitionResearch",
+            "label": "Competition research",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "visionStrategyDocument",
+            "label": "Vision & Strategy Document",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "metrics_kpis_Defining",
+            "label": "Metrics & KPIs Defining",
+            "type": "checkbox"
+        },
+        {
+            "key": "prd",
+            "label": "PRD",
+            "type": "checkbox"
+        },
+        {
+            "key": "specs",
+            "label": "Specs",
             "type": "checkbox"
         }
     ],
     "Product Prioritization & Execution": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "sprintPlanning",
+            "label": "Sprint planning",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "sprintExecution",
+            "label": "Sprint execution",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "sprintReview",
+            "label": "Sprint review",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "featurePrioritization",
+            "label": "Feature prioritization",
+            "type": "checkbox"
+        },
+        {
+            "key": "productEndOfLifePlanning",
+            "label": "Product end-of-life planning",
             "type": "checkbox"
         }
     ],
     "Product Consultation": [
         {
-            "key": "platform",
-            "label": "Platform",
+            "key": "consultingMinutes",
+            "label": "Consulting minutes",
             "type": "dropdown",
             "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
+                "30", "60", "90", "120", "150", "180", "210", "240", "270", "300"
             ]
         },
         {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "productReview",
+            "label": "Product review",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "productStrategy",
+            "label": "Product strategy",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         }
     ],
     "AI Strategy": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
+            "key": "consultingMinutes",
+            "label": "Consulting minutes",
             "type": "dropdown",
             "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
+                "30", "60", "90", "120", "150", "180", "210", "240", "270", "300"
             ]
         },
         {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "initialAssessment",
+            "label": "Initial assessment",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "strategicRecommendations",
+            "label": "Strategic recommendations",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "presentationCreation",
+            "label": "Presentation creation",
             "type": "checkbox"
         }
     ],
     "AI Lessons": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
+            "key": "lessonLength",
+            "label": "Lesson length (in minutes)",
+            "type": "dropdown",
+            "options": [
+                "30", "45", "60", "75", "90"
+            ]
         },
         {
-            "key": "commercialUse",
-            "label": "Commercial Use",
-            "type": "checkbox"
-        },
-        {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
-            "type": "checkbox"
-        },
-        {
-            "key": "scriptWriting",
-            "label": "Script Writing",
-            "type": "checkbox"
-        },
-        {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
-            "type": "checkbox"
+            "key": "numberOfLessons",
+            "label": "Number of lessons",
+            "type": "dropdown",
+            "options": [
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+            ]
         }
     ],
     "Customer Journey Mapping": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "videoConsultation",
+            "label": "Video consultation",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
-            "type": "checkbox"
-        },
-        {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "presentation_deck_doc",
+            "label": "Presentation deck/ doc",
             "type": "checkbox"
         }
     ],
     "Customer Personalization Strategy": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "implementationGuides",
+            "label": "Implementation guides",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "presentation_deck_doc",
+            "label": "Presentation deck/ doc",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "videoConsultation",
+            "label": "Video consultation",
             "type": "checkbox"
         }
     ],
     "Loyalty & Retention Programs": [
         {
-            "key": "deliveryTime",
-            "label": "Delivery Time (days)",
-            "type": "number"
-        },
-        {
-            "key": "commercialUse",
-            "label": "Commercial Use",
+            "key": "presentation_deck_doc",
+            "label": "Presentation deck/ doc",
             "type": "checkbox"
         },
         {
-            "key": "backgroundMusic",
-            "label": "Include Background Music",
+            "key": "videoConsultation",
+            "label": "Video consultation",
             "type": "checkbox"
         },
         {
-            "key": "scriptWriting",
-            "label": "Script Writing",
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         },
         {
-            "key": "voiceOver",
-            "label": "Voice Over Included",
+            "key": "implementationGuides",
+            "label": "Implementation guides",
             "type": "checkbox"
         }
     ],
     "Customer Engagement Strategy": [
         {
-            "key": "platform",
-            "label": "Platform",
-            "type": "dropdown",
-            "options": [
-                "WordPress",
-                "Shopify",
-                "Custom Code",
-                "Wix"
-            ]
-        },
-        {
-            "key": "responsiveDesign",
-            "label": "Responsive Design",
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         },
         {
-            "key": "pagesIncluded",
-            "label": "Number of Pages",
-            "type": "number"
-        },
-        {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "implementationGuides",
+            "label": "Implementation guides",
             "type": "checkbox"
         },
         {
-            "key": "seoOptimized",
-            "label": "SEO Optimized",
+            "key": "presentation_deck_doc",
+            "label": "Presentation deck/ doc",
+            "type": "checkbox"
+        },
+        {
+            "key": "videoConsultation",
+            "label": "Video consultation",
             "type": "checkbox"
         }
     ],
     "Voice of Customer (VoC)": [
         {
-            "key": "fileFormat",
-            "label": "File Format",
-            "type": "dropdown",
-            "options": [
-                "PDF",
-                "AI",
-                "PNG",
-                "SVG"
-            ]
-        },
-        {
-            "key": "sourceFile",
-            "label": "Include Source File",
+            "key": "actionPlan",
+            "label": "Action plan",
             "type": "checkbox"
         },
         {
-            "key": "colorOptions",
-            "label": "Color Options",
+            "key": "implementationGuides",
+            "label": "Implementation guides",
             "type": "checkbox"
         },
         {
-            "key": "dimensions",
-            "label": "Design Dimensions",
-            "type": "number"
+            "key": "videoConsultation",
+            "label": "Video consultation",
+            "type": "checkbox"
         },
         {
-            "key": "qualityAssurance",
-            "label": "Quality Assurance Check",
+            "key": "presentation_deck_doc",
+            "label": "Presentation deck/ doc",
+            "type": "checkbox"
+        },
+        {
+            "key": "voiceOfCustomer",
+            "label": "Voice of Customer (VoC) Program",
             "type": "checkbox"
         }
     ],

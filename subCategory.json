@@ -7404,37 +7404,49 @@ export const featureOptionsBySubCategory = {
     ],
     "Project Management": [
         {
-            "key": "project_management_feature_1",
-            "label": "Project Management Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "project_management_feature_2",
-            "label": "Project Management Specific Option 2",
+            "key": "generalProjectConsulting",
+            "label": "General project consulting",
             "type": "checkbox"
         },
         {
-            "key": "project_management_feature_3",
-            "label": "Project Management Specific Option 3",
-            "type": "number"
+            "key": "defineProjectGoals",
+            "label": "Define project goals",
+            "type": "checkbox"
         },
         {
-            "key": "project_management_feature_4",
-            "label": "Project Management Specific Option 4",
-            "type": "text"
+            "key": "deliveries_kpis",
+            "label": "Define deliveries & KPIs",
+            "type": "checkbox"
         },
         {
-            "key": "project_management_feature_5",
-            "label": "Project Management Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "scheduleMilestones",
+            "label": "Establish schedule & milestones",
+            "type": "checkbox"
+        },
+        {
+            "key": "riskManagement",
+            "label": "Risk management",
+            "type": "checkbox"
+        },
+        {
+            "key": "resourceManagement",
+            "label": "Resource management",
+            "type": "checkbox"
+        },
+        {
+            "key": "budgetManagement",
+            "label": "Budget management",
+            "type": "checkbox"
+        },
+        {
+            "key": "generateProjectReports",
+            "label": "Generate project reports",
+            "type": "checkbox"
+        },
+        {
+            "key": "generateProjectDiagrams",
+            "label": "Generate project diagrams",
+            "type": "checkbox"
         }
     ],
     "Software Management": [
@@ -7579,37 +7591,36 @@ export const featureOptionsBySubCategory = {
     ],
     "Sustainability Consulting": [
         {
-            "key": "sustainability_consulting_feature_1",
-            "label": "Sustainability Consulting Specific Option 1",
+            "key": "consultingHours",
+            "label": "Consulting Hours",
             "type": "dropdown",
             "options": [
-                "Option A",
-                "Option B"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
             ]
         },
         {
-            "key": "sustainability_consulting_feature_2",
-            "label": "Sustainability Consulting Specific Option 2",
+            "key": "initialAssessment",
+            "label": "Initial Assessment",
             "type": "checkbox"
         },
         {
-            "key": "sustainability_consulting_feature_3",
-            "label": "Sustainability Consulting Specific Option 3",
-            "type": "number"
+            "key": "strategyImplementationDocument",
+            "label": "Strategy Implementation Document",
+            "type": "checkbox"
         },
         {
-            "key": "sustainability_consulting_feature_4",
-            "label": "Sustainability Consulting Specific Option 4",
-            "type": "text"
+            "key": "presentationCreation",
+            "label": "Presentation Creation",
+            "type": "checkbox"
         },
         {
-            "key": "sustainability_consulting_feature_5",
-            "label": "Sustainability Consulting Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "financialForecast",
+            "label": "Financial forecast",
+            "type": "checkbox"
         }
     ],
     "Supply Chain Management": [
@@ -7684,37 +7695,54 @@ export const featureOptionsBySubCategory = {
     ],
     "Event Management": [
         {
-            "key": "event_management_feature_1",
-            "label": "Event Management Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "event_management_feature_2",
-            "label": "Event Management Specific Option 2",
+            "key": "consultingServices",
+            "label": "Consulting services",
             "type": "checkbox"
         },
         {
-            "key": "event_management_feature_3",
-            "label": "Event Management Specific Option 3",
+            "key": "planning",
+            "label": "Planning",
+            "type": "checkbox"
+        },
+        {
+            "key": "logistics",
+            "label": "Logistics",
+            "type": "checkbox"
+        },
+        {
+            "key": "numberOfGuests",
+            "label": "Number of guests",
             "type": "number"
         },
         {
-            "key": "event_management_feature_4",
-            "label": "Event Management Specific Option 4",
-            "type": "text"
+            "key": "eventPromotion",
+            "label": "Event promotion",
+            "type": "checkbox"
         },
         {
-            "key": "event_management_feature_5",
-            "label": "Event Management Specific Option 5",
-            "type": "dropdown",
-            "options": [
-                "Choice 1",
-                "Choice 2"
-            ]
+            "key": "contentCreation",
+            "label": "Content creation",
+            "type": "checkbox"
+        },
+        {
+            "key": "staffMembersIncluded",
+            "label": "Staff members included",
+            "type": "number"
+        },
+        {
+            "key": "hostFacilitator",
+            "label": "Host / facilitator",
+            "type": "checkbox"
+        },
+        {
+            "key": "technicalSupport",
+            "label": "Technical support",
+            "type": "checkbox"
+        },
+        {
+            "key": "postEventSupport",
+            "label": "Post-event support",
+            "type": "checkbox"
         }
     ],
     "AI Consulting": [
@@ -7754,37 +7782,51 @@ export const featureOptionsBySubCategory = {
     ],
     "Game Concept Design": [
         {
-            "key": "game_concept_design_feature_1",
-            "label": "Game Concept Design Specific Option 1",
-            "type": "dropdown",
-            "options": [
-                "Option A",
-                "Option B"
-            ]
-        },
-        {
-            "key": "game_concept_design_feature_2",
-            "label": "Game Concept Design Specific Option 2",
+            "key": "gameConceptDevelopment",
+            "label": "Game concept development",
             "type": "checkbox"
         },
         {
-            "key": "game_concept_design_feature_3",
-            "label": "Game Concept Design Specific Option 3",
-            "type": "number"
+            "key": "gameplayMechanics",
+            "label": "Gameplay mechanics",
+            "type": "checkbox"
         },
         {
-            "key": "game_concept_design_feature_4",
-            "label": "Game Concept Design Specific Option 4",
-            "type": "text"
-        },
-        {
-            "key": "game_concept_design_feature_5",
-            "label": "Game Concept Design Specific Option 5",
+            "key": "levels",
+            "label": "Number of levels",
             "type": "dropdown",
             "options": [
-                "Choice 1",
-                "Choice 2"
+                "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+                "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+                "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+                "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
+                "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+                "81", "82", "83", "84", "85", "86", "87", "88", "89", "90",
+                "91", "92", "93", "94", "95", "96", "97", "98", "99", "100"
             ]
+        },
+        {
+            "key": "monetizationStrategy",
+            "label": "Monetization strategy",
+            "type": "checkbox"
+        },
+        {
+            "key": "gameEconomics",
+            "label": "Game economics",
+            "type": "checkbox"
+        },
+        {
+            "key": "gameDesignDocumentCreation",
+            "label": "Game design document creation",
+            "type": "checkbox"
+        },
+        {
+            "key": "project_production_plan",
+            "label": "Project/production plan",
+            "type": "checkbox"
         }
     ],
     "Customer Experience Management (CXM)": [
